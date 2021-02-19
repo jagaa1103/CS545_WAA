@@ -18,7 +18,7 @@
   <h1>And the results are: </h1>
 
   <c:choose>
-    <c:when test="${controlNumber <= num1 && controlNumber >= num2 && controlNumber != num3}">
+    <c:when test="${controlNumber < num1 && controlNumber > num2 && controlNumber != num3}">
       <p>Control Number ${controlNumber}</p>
       <p style="color: green; font-weight: bold;">is NOT greater than ${num1}</p>
       <p style="color: red; font-weight: bold;">is NOT less than ${num2}</p>
