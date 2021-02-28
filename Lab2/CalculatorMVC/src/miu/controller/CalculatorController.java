@@ -7,6 +7,7 @@ import mum.edu.framework.annotation.AutoWired;
 import mum.edu.framework.annotation.Controller;
 import mum.edu.framework.annotation.RequestMapping;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Arrays;
@@ -31,7 +32,6 @@ public class CalculatorController {
             req.setAttribute("calculator", calculator);
             return "/WEB-INF/jsp/result.jsp";
         } else {
-            System.out.println(Arrays.asList(errors).toString());
             req.setAttribute("errors", errors);
             req.setAttribute("calculator", calculator);
             return "/WEB-INF/jsp/calculator.jsp";
