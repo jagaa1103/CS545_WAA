@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ProductMVCMethod:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ProductMVCMethod</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ProductMVCMethod-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ProductMVCMethod:war exploded" />
+    </root>
+  </artifact>
+</component>
