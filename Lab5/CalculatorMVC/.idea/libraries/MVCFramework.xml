@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="MVCFramework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/MVCFramework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/MVCFramework.jar!/" />
+    </SOURCES>
+  </library>
+</component>
