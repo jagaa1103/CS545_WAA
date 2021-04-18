@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Lab9_LoginFlow:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Lab9_LoginFlow</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringWebFlowExample.war">
+      <element id="artifact" artifact-name="Lab9_LoginFlow:war exploded" />
+    </root>
+  </artifact>
+</component>
