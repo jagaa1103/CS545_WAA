@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+ <meta charset="UTF-8">
+ <title>Hello Spring MVC</title>
+</head>
+<body>
+<form method="get" onsubmit="hello">
+ <label>Type your name</label>
+ <input id="nameInput" type="text" th:value="${name}" name="name">
+ <input type="submit" th:title="Submit" />
+ <p th:text="'Hello ' + ${name}+'!'" />
+</form>
+</body>
+</html>
